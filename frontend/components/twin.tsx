@@ -119,9 +119,6 @@ export default function Twin() {
             </div>
             <span className="truncate">AI Digital Twin</span>
           </h2>
-          <p className="text-xs sm:text-sm text-white/90 mt-1 sm:mt-2 ml-10 sm:ml-12 md:ml-13 font-medium">
-            Your AI course companion
-          </p>
         </div>
       </div>
 
