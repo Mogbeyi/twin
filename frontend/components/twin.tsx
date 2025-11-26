@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Send, Bot, User, Sparkles } from "lucide-react";
 import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 
 interface Message {
   id: string;
@@ -186,9 +187,46 @@ export default function Twin() {
                   : "bg-white/90 backdrop-blur-sm border border-gray-100 text-gray-800"
               }`}
             >
-              <p className="whitespace-pre-wrap leading-relaxed">
-                {message.content}
-              </p>
+              <div className="prose prose-sm max-w-none leading-relaxed">
+                <ReactMarkdown
+                  components={{
+                    p: ({ children }) => (
+                      <p className="mb-2 last:mb-0">{children}</p>
+                    ),
+                    ul: ({ children }) => (
+                      <ul className="list-disc ml-4 mb-2 space-y-1">
+                        {children}
+                      </ul>
+                    ),
+                    ol: ({ children }) => (
+                      <ol className="list-decimal ml-4 mb-2 space-y-1">
+                        {children}
+                      </ol>
+                    ),
+                    li: ({ children }) => (
+                      <li className="leading-relaxed">{children}</li>
+                    ),
+                    strong: ({ children }) => (
+                      <strong className="font-semibold">{children}</strong>
+                    ),
+                    em: ({ children }) => (
+                      <em className="italic">{children}</em>
+                    ),
+                    code: ({ children }) => (
+                      <code className="bg-gray-100 px-1 py-0.5 rounded text-sm font-mono">
+                        {children}
+                      </code>
+                    ),
+                    pre: ({ children }) => (
+                      <pre className="bg-gray-100 p-2 rounded overflow-x-auto">
+                        {children}
+                      </pre>
+                    ),
+                  }}
+                >
+                  {message.content}
+                </ReactMarkdown>
+              </div>
               <p
                 className={`text-xs mt-2 font-medium ${
                   message.role === "user" ? "text-white/70" : "text-gray-400"
