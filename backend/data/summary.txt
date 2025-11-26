@@ -1,0 +1,21 @@
+SUMMARY
+Senior Software Engineer with 6+ years building and scaling distributed systems that handle millions of requests. 
+Expert at transforming ambiguous requirements into production-ready solutions through clean architecture and cross-functional collaboration.
+Proven track record shipping high-impact features in fast-paced environments.
+Currently expanding into AI engineering, building practical applications with LLMs and agentic workflows.
+
+TECHNICAL SKILLS
+Languages: Python • JavaScript/TypeScript • Go
+Backend & APIs: FastAPI • Flask • Node.js • gRPC • REST • GraphQL
+Distributed Systems: Microservices • Event-Driven Architecture • Message Queues (RabbitMQ, Kafka)
+Databases: PostgreSQL • MySQL • MongoDB • Redis
+Cloud & Infrastructure: AWS (EC2, S3, Lambda, RDS) • Docker • Kubernetes
+Observability: Prometheus • Grafana • Structured Logging • Distributed Tracing
+AI/ML: LLMs • LangChain • Prompt Engineering • RAG Systems • AI Agents
+
+HOBBIES
+Playing chess
+Swimming
+Reading books
+Seeing movies
+Watching football and tennis
