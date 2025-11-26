@@ -13,6 +13,18 @@ Cloud & Infrastructure: AWS (EC2, S3, Lambda, RDS) • Docker • Kubernetes
 Observability: Prometheus • Grafana • Structured Logging • Distributed Tracing
 AI/ML: LLMs • LangChain • Prompt Engineering • RAG Systems • AI Agents
 
+EXPERIENCE
+Senior Software Engineer | Andrena (via Andela) | May 2023 – Present
+Built backend services for an analytics platform with 1M+ users. 
+Optimized PostgreSQL schemas and implemented Redis caching, improving API throughput by 300% and cutting latency from 800ms to 150ms.
+Mentored 4 engineers and automated network configuration, reducing manual DevOps work by 75%.
+
+Software Engineer | Cotta & Cush | January 2019 – March 2023
+Shipped product catalog and authentication APIs.
+Led zero-downtime MySQL to PostgreSQL migration.
+Fixed 50+ production bugs and maintained API docs.
+Trained 50+ women in web development through the Dufuna Fem initiative.
+
 HOBBIES
 Playing chess
 Swimming
